@@ -1,0 +1,51 @@
+Traced on 2020-10-15 16:32:54
+FileAccessForInclusion - 
+D:\Work\projects\vtigercrm\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+D:\Work\projects\vtigercrm\includes\Loader.php::checkFileAccessForInclusion::65<br>
+D:\Work\projects\vtigercrm\includes\Loader.php::includeOnce::191<br>
+D:\Work\projects\vtigercrm\includes\main\WebUI.php::vimport::15<br>
+D:\Work\projects\vtigercrm\index.php::include_once::17<br>
+Traced on 2020-10-15 16:33:44
+FileAccessForInclusion - 
+D:\Work\projects\vtigercrm\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+D:\Work\projects\vtigercrm\includes\Loader.php::checkFileAccessForInclusion::65<br>
+D:\Work\projects\vtigercrm\includes\Loader.php::includeOnce::191<br>
+D:\Work\projects\vtigercrm\includes\main\WebUI.php::vimport::15<br>
+D:\Work\projects\vtigercrm\index.php::include_once::17<br>
+Traced on 2020-10-15 16:36:54
+FileAccessForInclusion - 
+D:\Work\projects\vtigercrm\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+D:\Work\projects\vtigercrm\includes\Loader.php::checkFileAccessForInclusion::65<br>
+D:\Work\projects\vtigercrm\includes\Loader.php::includeOnce::191<br>
+D:\Work\projects\vtigercrm\includes\main\WebUI.php::vimport::15<br>
+D:\Work\projects\vtigercrm\index.php::include_once::17<br>
+Traced on 2020-10-15 17:46:03
+FileAccessForInclusion - 
+D:\Work\projects\vtigercrm\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+D:\Work\projects\vtigercrm\modules\Users\CreateUserPrivilegeFile.php::checkFileAccessForInclusion::114<br>
+D:\Work\projects\vtigercrm\modules\Users\Users.php::createUserSharingPrivilegesfile::1126<br>
+D:\Work\projects\vtigercrm\modules\Users\models\Module.php::save::260<br>
+D:\Work\projects\vtigercrm\modules\Vtiger\models\Record.php::saveRecord::259<br>
+D:\Work\projects\vtigercrm\modules\Users\models\Record.php::save::155<br>
+D:\Work\projects\vtigercrm\modules\Vtiger\actions\Save.php::save::117<br>
+D:\Work\projects\vtigercrm\modules\Users\actions\Save.php::saveRecord::126<br>
+D:\Work\projects\vtigercrm\includes\main\WebUI.php::process::215<br>
+D:\Work\projects\vtigercrm\index.php::process::20<br>
+Traced on 2020-10-15 17:46:40
+FileAccessForInclusion - 
+D:\Work\projects\vtigercrm\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+D:\Work\projects\vtigercrm\vtlib\Vtiger\AccessControl.php::checkFileAccessForInclusion::25<br>
+D:\Work\projects\vtigercrm\vtlib\Vtiger\AccessControl.php::loadUserPrivilegesWithId::44<br>
+D:\Work\projects\vtigercrm\modules\Users\Users.php::loadUserPrivileges::646<br>
+D:\Work\projects\vtigercrm\modules\Users\models\Record.php::retrieveCurrentUserInfoFromFile::818<br>
+D:\Work\projects\vtigercrm\modules\Users\models\Privileges.php::getInstanceFromPreferenceFile::188<br>
+D:\Work\projects\vtigercrm\test\templates_c\v7\cf8443c35acd27c98ffa3b6bec63349b7cfa9ca6.file.ListViewRecordActions.tpl.php::isPermittedToChangeUsername::33<br>
+D:\Work\projects\vtigercrm\libraries\Smarty\libs\sysplugins\smarty_internal_templatebase.php::content_5f888aab218fb::180<br>
+D:\Work\projects\vtigercrm\libraries\Smarty\libs\sysplugins\smarty_internal_template.php::fetch::285<br>
+D:\Work\projects\vtigercrm\test\templates_c\v7\b4faef71601ef1fadff5096f273dc2c898196ea4.file.ListViewContents.tpl.php::getSubTemplate::107<br>
+D:\Work\projects\vtigercrm\libraries\Smarty\libs\sysplugins\smarty_internal_templatebase.php::content_5f888aa9a9029::180<br>
+D:\Work\projects\vtigercrm\libraries\Smarty\libs\sysplugins\smarty_internal_templatebase.php::fetch::374<br>
+D:\Work\projects\vtigercrm\includes\runtime\Viewer.php::display::188<br>
+D:\Work\projects\vtigercrm\modules\Users\views\List.php::view::31<br>
+D:\Work\projects\vtigercrm\includes\main\WebUI.php::process::215<br>
+D:\Work\projects\vtigercrm\index.php::process::20<br>
