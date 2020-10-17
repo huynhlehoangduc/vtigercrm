@@ -33,7 +33,7 @@ $USE_RTE = 'true';
 
 // helpdesk support email id and support name (Example: 'support@vtiger.com' and 'vtiger support')
 $HELPDESK_SUPPORT_EMAIL_ID = 'huynhlehoangduc@gmail.com';
-$HELPDESK_SUPPORT_NAME = 'your-support name';
+$HELPDESK_SUPPORT_NAME = 'Huỳnh Lê Hoàng Đức';
 $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
 
 /* database configuration
@@ -115,7 +115,7 @@ $allow_exports = 'all';
 $upload_badext = array('php', 'php3', 'php4', 'php5', 'pl', 'cgi', 'py', 'asp', 'cfm', 'js', 'vbs', 'html', 'htm', 'exe', 'bin', 'bat', 'sh', 'dll', 'phps', 'phtml', 'xhtml', 'rb', 'msi', 'jsp', 'shtml', 'sth', 'shtm');
 
 // list_max_entries_per_page default value = 20
-$list_max_entries_per_page = '20';
+$list_max_entries_per_page = '50';
 
 // history_max_viewed default value = 5
 $history_max_viewed = '5';
@@ -160,7 +160,7 @@ $disable_stats_tracking = false;
 $application_unique_key = 'sdaf654ds6f54sa6d5fda645';
 
 // trim descriptions, titles in listviews to this value
-$listview_max_textlength = 40;
+$listview_max_textlength = '40';
 
 // Maximum time limit for PHP script execution (in seconds)
 $php_max_execution_time = 0;
